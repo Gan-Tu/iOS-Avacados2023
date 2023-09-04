@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59344CC22AA63450002B283E /* AvacadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CC12AA63450002B283E /* AvacadosApp.swift */; };
+		59344CC22AA63450002B283E /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CC12AA63450002B283E /* AvocadosApp.swift */; };
 		59344CC42AA63450002B283E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CC32AA63450002B283E /* ContentView.swift */; };
 		59344CC62AA63453002B283E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59344CC52AA63453002B283E /* Assets.xcassets */; };
 		59344CC92AA63453002B283E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59344CC82AA63453002B283E /* Preview Assets.xcassets */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59344CBE2AA63450002B283E /* Avacados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avacados.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		59344CC12AA63450002B283E /* AvacadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvacadosApp.swift; sourceTree = "<group>"; };
+		59344CBE2AA63450002B283E /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59344CC12AA63450002B283E /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		59344CC32AA63450002B283E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59344CC52AA63453002B283E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59344CC82AA63453002B283E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		59344CB52AA63450002B283E = {
 			isa = PBXGroup;
 			children = (
-				59344CC02AA63450002B283E /* Avacados */,
+				59344CC02AA63450002B283E /* Avocados */,
 				59344CBF2AA63450002B283E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,23 +59,23 @@
 		59344CBF2AA63450002B283E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59344CBE2AA63450002B283E /* Avacados.app */,
+				59344CBE2AA63450002B283E /* Avocados.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59344CC02AA63450002B283E /* Avacados */ = {
+		59344CC02AA63450002B283E /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
 				59344CD32AA63B19002B283E /* View */,
 				59344CD22AA63B14002B283E /* Modal */,
 				59344CD12AA63B10002B283E /* Data */,
 				59344CCF2AA6374B002B283E /* Launch Screen.storyboard */,
-				59344CC12AA63450002B283E /* AvacadosApp.swift */,
+				59344CC12AA63450002B283E /* AvocadosApp.swift */,
 				59344CC52AA63453002B283E /* Assets.xcassets */,
 				59344CC72AA63453002B283E /* Preview Content */,
 			);
-			path = Avacados;
+			path = Avocados;
 			sourceTree = "<group>";
 		};
 		59344CC72AA63453002B283E /* Preview Content */ = {
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59344CBD2AA63450002B283E /* Avacados */ = {
+		59344CBD2AA63450002B283E /* Avocados */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59344CCC2AA63453002B283E /* Build configuration list for PBXNativeTarget "Avacados" */;
+			buildConfigurationList = 59344CCC2AA63453002B283E /* Build configuration list for PBXNativeTarget "Avocados" */;
 			buildPhases = (
 				59344CBA2AA63450002B283E /* Sources */,
 				59344CBB2AA63450002B283E /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = Avacados;
-			productName = Avacados;
-			productReference = 59344CBE2AA63450002B283E /* Avacados.app */;
+			name = Avocados;
+			productName = Avocados;
+			productReference = 59344CBE2AA63450002B283E /* Avocados.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 59344CB92AA63450002B283E /* Build configuration list for PBXProject "Avacados" */;
+			buildConfigurationList = 59344CB92AA63450002B283E /* Build configuration list for PBXProject "Avocados" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59344CBD2AA63450002B283E /* Avacados */,
+				59344CBD2AA63450002B283E /* Avocados */,
 			);
 		};
 /* End PBXProject section */
@@ -190,7 +190,7 @@
 				59344CC42AA63450002B283E /* ContentView.swift in Sources */,
 				59344CDB2AA63B6F002B283E /* AppView.swift in Sources */,
 				59344CD72AA63B4A002B283E /* RipeningStagesView.swift in Sources */,
-				59344CC22AA63450002B283E /* AvacadosApp.swift in Sources */,
+				59344CC22AA63450002B283E /* AvocadosApp.swift in Sources */,
 				59344CD52AA63B37002B283E /* AvocadosView.swift in Sources */,
 				59344CDF2AA64364002B283E /* HeaderModel.swift in Sources */,
 				59344CE12AA64394002B283E /* HeaderData.swift in Sources */,
@@ -328,7 +328,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Avacados/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
 				DEVELOPMENT_TEAM = K3URZZFDQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -345,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avacados;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avocados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -365,7 +365,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Avacados/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
 				DEVELOPMENT_TEAM = K3URZZFDQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -382,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avacados;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avocados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -397,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59344CB92AA63450002B283E /* Build configuration list for PBXProject "Avacados" */ = {
+		59344CB92AA63450002B283E /* Build configuration list for PBXProject "Avocados" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59344CCA2AA63453002B283E /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59344CCC2AA63453002B283E /* Build configuration list for PBXNativeTarget "Avacados" */ = {
+		59344CCC2AA63453002B283E /* Build configuration list for PBXNativeTarget "Avocados" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59344CCD2AA63453002B283E /* Debug */,

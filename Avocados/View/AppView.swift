@@ -1,6 +1,6 @@
 //
 //  AppView.swift
-//  Avacados
+//  Avocados
 //
 //  Created by Gan Tu on 9/4/23.
 //
@@ -11,7 +11,7 @@ struct AppView: View {
     var body: some View {
         TabView {
             AvocadosView()
-                .tabItem { Image("tabicon-branch"); Text("Avaocados") }
+                .tabItem { Image("tabicon-branch"); Text("Avocados") }
             
             ContentView()
                 .tabItem { Image("tabicon-book"); Text("Recipes") }

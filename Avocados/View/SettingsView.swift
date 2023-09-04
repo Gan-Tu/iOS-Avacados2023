@@ -1,6 +1,6 @@
 //
 //  SettingsView.swift
-//  Avacados
+//  Avocados
 //
 //  Created by Gan Tu on 9/4/23.
 //
