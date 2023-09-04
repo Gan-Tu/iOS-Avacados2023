@@ -29,6 +29,7 @@
 		59D2B3692AA6506E006551AA /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B3682AA6506E006551AA /* RecipeRatingView.swift */; };
 		59D2B36B2AA650BF006551AA /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B36A2AA650BF006551AA /* RecipeCookingView.swift */; };
 		59D2B36D2AA6513D006551AA /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B36C2AA6513D006551AA /* RecipeDetailView.swift */; };
+		59D2B36F2AA68168006551AA /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B36E2AA68168006551AA /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		59D2B3682AA6506E006551AA /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		59D2B36A2AA650BF006551AA /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		59D2B36C2AA6513D006551AA /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		59D2B36E2AA68168006551AA /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				59D2B3682AA6506E006551AA /* RecipeRatingView.swift */,
 				59D2B36A2AA650BF006551AA /* RecipeCookingView.swift */,
 				59D2B36C2AA6513D006551AA /* RecipeDetailView.swift */,
+				59D2B36E2AA68168006551AA /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				59344CE12AA64394002B283E /* HeaderData.swift in Sources */,
 				59D2B35B2AA64766006551AA /* DishesView.swift in Sources */,
 				59D2B36B2AA650BF006551AA /* RecipeCookingView.swift in Sources */,
+				59D2B36F2AA68168006551AA /* RipeningView.swift in Sources */,
 				59D2B35F2AA64C2E006551AA /* FactModel.swift in Sources */,
 				59D2B35D2AA64A64006551AA /* FactsView.swift in Sources */,
 				59D2B3672AA64DA9006551AA /* RecipeCardView.swift in Sources */,
