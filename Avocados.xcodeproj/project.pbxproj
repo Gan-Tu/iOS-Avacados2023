@@ -20,6 +20,7 @@
 		59344CDF2AA64364002B283E /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CDE2AA64364002B283E /* HeaderModel.swift */; };
 		59344CE12AA64394002B283E /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CE02AA64394002B283E /* HeaderData.swift */; };
 		59D2B35B2AA64766006551AA /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B35A2AA64766006551AA /* DishesView.swift */; };
+		59D2B35D2AA64A64006551AA /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2B35C2AA64A64006551AA /* FactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		59344CDE2AA64364002B283E /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		59344CE02AA64394002B283E /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		59D2B35A2AA64766006551AA /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		59D2B35C2AA64A64006551AA /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				59344CDA2AA63B6F002B283E /* AppView.swift */,
 				59344CDC2AA63FDB002B283E /* HeaderView.swift */,
 				59D2B35A2AA64766006551AA /* DishesView.swift */,
+				59D2B35C2AA64A64006551AA /* FactsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				59344CDF2AA64364002B283E /* HeaderModel.swift in Sources */,
 				59344CE12AA64394002B283E /* HeaderData.swift in Sources */,
 				59D2B35B2AA64766006551AA /* DishesView.swift in Sources */,
+				59D2B35D2AA64A64006551AA /* FactsView.swift in Sources */,
 				59344CDD2AA63FDB002B283E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
