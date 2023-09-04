@@ -11,6 +11,11 @@
 		59344CC42AA63450002B283E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CC32AA63450002B283E /* ContentView.swift */; };
 		59344CC62AA63453002B283E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59344CC52AA63453002B283E /* Assets.xcassets */; };
 		59344CC92AA63453002B283E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59344CC82AA63453002B283E /* Preview Assets.xcassets */; };
+		59344CD02AA6374B002B283E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59344CCF2AA6374B002B283E /* Launch Screen.storyboard */; };
+		59344CD52AA63B37002B283E /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CD42AA63B37002B283E /* AvocadosView.swift */; };
+		59344CD72AA63B4A002B283E /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CD62AA63B4A002B283E /* RipeningStagesView.swift */; };
+		59344CD92AA63B5F002B283E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CD82AA63B5F002B283E /* SettingsView.swift */; };
+		59344CDB2AA63B6F002B283E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59344CDA2AA63B6F002B283E /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		59344CC32AA63450002B283E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59344CC52AA63453002B283E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59344CC82AA63453002B283E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59344CCF2AA6374B002B283E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		59344CD42AA63B37002B283E /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		59344CD62AA63B4A002B283E /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		59344CD82AA63B5F002B283E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		59344CDA2AA63B6F002B283E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,11 @@
 		59344CC02AA63450002B283E /* Avacados */ = {
 			isa = PBXGroup;
 			children = (
+				59344CD32AA63B19002B283E /* View */,
+				59344CD22AA63B14002B283E /* Modal */,
+				59344CD12AA63B10002B283E /* Data */,
+				59344CCF2AA6374B002B283E /* Launch Screen.storyboard */,
 				59344CC12AA63450002B283E /* AvacadosApp.swift */,
-				59344CC32AA63450002B283E /* ContentView.swift */,
 				59344CC52AA63453002B283E /* Assets.xcassets */,
 				59344CC72AA63453002B283E /* Preview Content */,
 			);
@@ -65,6 +78,32 @@
 				59344CC82AA63453002B283E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59344CD12AA63B10002B283E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		59344CD22AA63B14002B283E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		59344CD32AA63B19002B283E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59344CC32AA63450002B283E /* ContentView.swift */,
+				59344CD42AA63B37002B283E /* AvocadosView.swift */,
+				59344CD62AA63B4A002B283E /* RipeningStagesView.swift */,
+				59344CD82AA63B5F002B283E /* SettingsView.swift */,
+				59344CDA2AA63B6F002B283E /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59344CD02AA6374B002B283E /* Launch Screen.storyboard in Resources */,
 				59344CC92AA63453002B283E /* Preview Assets.xcassets in Resources */,
 				59344CC62AA63453002B283E /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59344CD92AA63B5F002B283E /* SettingsView.swift in Sources */,
 				59344CC42AA63450002B283E /* ContentView.swift in Sources */,
+				59344CDB2AA63B6F002B283E /* AppView.swift in Sources */,
+				59344CD72AA63B4A002B283E /* RipeningStagesView.swift in Sources */,
 				59344CC22AA63450002B283E /* AvacadosApp.swift in Sources */,
+				59344CD52AA63B37002B283E /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,15 +313,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avacados/Preview Content\"";
 				DEVELOPMENT_TEAM = K3URZZFDQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,6 +335,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avacados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +350,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avacados/Preview Content\"";
 				DEVELOPMENT_TEAM = K3URZZFDQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +372,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tugan.demo.Avacados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
