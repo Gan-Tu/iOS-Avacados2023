@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    var headers: [Header] = headersData
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
@@ -15,7 +17,9 @@ struct ContentView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(alignment: .top,  spacing: 0) {
-                        HeaderView()
+                        ForEach(headers) { item in
+                            HeaderView(header: item)
+                        }
                     }
                 }
                 
