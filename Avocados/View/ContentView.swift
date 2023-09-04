@@ -16,7 +16,6 @@ struct ContentView: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
                 // MARK: - HEADER
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(alignment: .top,  spacing: 0) {
                         ForEach(headers) { item in
